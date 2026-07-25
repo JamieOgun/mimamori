@@ -1,0 +1,143 @@
+{
+  "Dashboard": {
+    "callScores": "Call scores",
+    "changeLanguage": "Change language",
+    "filterCallsByRisk": "Filter calls by risk",
+    "risk": {
+      "all": "All",
+      "low": "Low",
+      "watch": "Watch",
+      "high": "High"
+    },
+    "scoreOverview": "Score overview",
+    "averageScore": "Average score",
+    "scoreBreakdown": "Score breakdown",
+    "scoreBreakdownFor": "{category} score breakdown",
+    "openScoreBreakdown": "Open {category} score breakdown",
+    "closeScoreBreakdown": "Close score breakdown",
+    "callsToReview": "{count, plural, one {# call to review} other {# calls to review}}",
+    "cognitive": "Cognitive",
+    "emotional": "Emotional",
+    "criteria": {
+      "repetition": "Repetition",
+      "temporalConfusion": "Temporal confusion",
+      "wordFinding": "Word finding",
+      "confabulation": "Confabulation",
+      "vocabulary": "Vocabulary complexity",
+      "coherence": "Response coherence",
+      "affect": "Affect",
+      "anxiety": "Anxiety or agitation",
+      "withdrawal": "Social withdrawal",
+      "interest": "Interest in activities",
+      "overallMood": "Overall mood"
+    },
+    "evidenceMarkers": "Evidence markers",
+    "assessmentNotes": "Assessment notes",
+    "callRecordings": "Call recordings",
+    "recentRecordings": "Recent recordings",
+    "transcriptsAndScores": "Transcripts and scores",
+    "table": {
+      "call": "Call",
+      "score": "Score",
+      "risk": "Risk",
+      "duration": "Duration",
+      "time": "Time"
+    },
+    "noMatchingCalls": "No calls match this view.",
+    "loadingCalls": "Loading calls…",
+    "loadError": "Could not reach the backend. Is the server running?",
+    "startDemoCall": "Call now",
+    "scheduleTime": "Daily call time",
+    "scheduleCall": "Daily schedule",
+    "closeScheduleDialog": "Close schedule dialog",
+    "cancel": "Cancel",
+    "demoPhoneNumberMissing": "Set NEXT_PUBLIC_DEMO_TO_NUMBER before placing demo calls.",
+    "scheduleTimeRequired": "Choose a schedule time first.",
+    "callStarted": "Call started: {callSid}",
+    "callInProgress": "Call in progress",
+    "callWaitingForScore": "Waiting for score",
+    "callScoreReady": "Score ready: {score} ({risk})",
+    "callResultError": "The call started, but the result could not be loaded.",
+    "callStartError": "Could not start the call. Check the backend and Twilio settings.",
+    "callScheduled": "Daily call scheduled for {time}.",
+    "callScheduleError": "Could not schedule the daily call. Check the backend and schedule time.",
+    "careRecipient": "Care recipient",
+    "backToDashboard": "Back to dashboard",
+    "callReference": "Call ID",
+    "selectedCallDetail": "Selected call detail",
+    "callScore": "Call score",
+    "callRecording": "Call recording",
+    "transcript": "Transcript",
+    "highlightLegend": "Highlighted phrases contributed to a lower criterion score.",
+    "viewReasoning": "View reasoning",
+    "hideReasoning": "Hide reasoning",
+    "viewReasoningFor": "View reasoning for {criterion}",
+    "reasoning": "Reasoning",
+    "reasoningText": {
+      "call2TemporalConfusion": "Mrs. Tanaka questioned the day and required a correction in the next turn. This directly lowered the Temporal confusion criterion.",
+      "call2ReducedInterest": "The qualified response about appetite indicates reduced interest in eating compared with her usual baseline.",
+      "call4LowInterest": "Saying she did not feel like eating is direct evidence of reduced interest in a routine daily activity.",
+      "call4FlatAffect": "Reported tiredness, combined with short delivery elsewhere in the call, contributed to the low Affect score.",
+      "call4Withdrawal": "Requesting a shorter conversation is a direct withdrawal signal and contributed to the Social withdrawal score."
+    },
+    "turnsCount": "{count, plural, one {# turn} other {# turns}}",
+    "durationValue": "{minutes}m {seconds}s",
+    "speaker": {
+      "recipient": "Care recipient"
+    },
+    "assessmentMarkers": {
+      "specificRecall": "Specific breakfast recall",
+      "coherentResponses": "Coherent responses",
+      "steadyTone": "Steady tone",
+      "futurePlanning": "Future planning",
+      "dateHesitation": "Date hesitation",
+      "secondPrompt": "Second prompt needed",
+      "lowerEnergy": "Lower energy",
+      "reducedAppetite": "Reduced appetite",
+      "strongRecall": "Strong episodic recall",
+      "medicationRecall": "Medication recall",
+      "livelyConversation": "Lively conversation",
+      "socialConnection": "Social connection",
+      "shortResponses": "Short responses",
+      "timelineUnclear": "Timeline unclear",
+      "flatAffect": "Flat affect",
+      "lowEngagement": "Low engagement"
+    },
+    "assessmentNotesText": {
+      "call1Cognitive": "Clear orientation and specific recall. No repetition or contradictory details were detected.",
+      "call1Emotional": "Tone remained steady and Mrs. Tanaka showed interest in her daughter's visit.",
+      "call2Cognitive": "Date recall required a second prompt, while the remainder of the conversation stayed coherent.",
+      "call2Emotional": "Energy and appetite were below baseline, with mild anxiety around orientation.",
+      "call3Cognitive": "Strong recall across daily plans, social activity, and medication details.",
+      "call3Emotional": "Warm affect and active interest in speaking with a friend were sustained throughout the call.",
+      "call4Cognitive": "Short responses and an unclear timeline reduced confidence in temporal orientation.",
+      "call4Emotional": "Flat affect, low appetite, and a request to shorten the conversation suggest withdrawal."
+    },
+    "callData": {
+      "call1": {
+        "name": "Mrs. Tanaka",
+        "date": "Today",
+        "time": "9:02 AM",
+        "summary": "Clear orientation, steady tone, and normal breakfast recall."
+      },
+      "call2": {
+        "name": "Mrs. Tanaka",
+        "date": "Yesterday",
+        "time": "9:01 AM",
+        "summary": "Lower energy than baseline; date recall needed a second prompt."
+      },
+      "call3": {
+        "name": "Mrs. Tanaka",
+        "date": "Tue, Jul 21",
+        "time": "9:04 AM",
+        "summary": "Strong recall, lively conversation, and no distress signals."
+      },
+      "call4": {
+        "name": "Mrs. Tanaka",
+        "date": "Mon, Jul 20",
+        "time": "8:58 AM",
+        "summary": "Short answers, flat affect, and skipped breakfast reported."
+      }
+    }
+  }
+}

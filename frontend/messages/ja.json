@@ -1,0 +1,143 @@
+{
+  "Dashboard": {
+    "callScores": "通話スコア",
+    "changeLanguage": "言語を変更",
+    "filterCallsByRisk": "リスクで通話を絞り込む",
+    "risk": {
+      "all": "すべて",
+      "low": "低",
+      "watch": "要確認",
+      "high": "高"
+    },
+    "scoreOverview": "スコア概要",
+    "averageScore": "平均スコア",
+    "scoreBreakdown": "スコア内訳",
+    "scoreBreakdownFor": "{category}のスコア内訳",
+    "openScoreBreakdown": "{category}のスコア内訳を開く",
+    "closeScoreBreakdown": "スコア内訳を閉じる",
+    "callsToReview": "{count}件の確認が必要",
+    "cognitive": "認知",
+    "emotional": "感情",
+    "criteria": {
+      "repetition": "同じ話や質問の繰り返し",
+      "temporalConfusion": "時間・日付の混乱",
+      "wordFinding": "言葉の想起",
+      "confabulation": "作話・矛盾",
+      "vocabulary": "語彙の複雑さ",
+      "coherence": "返答の一貫性",
+      "affect": "感情表現",
+      "anxiety": "不安・焦燥",
+      "withdrawal": "社会的な引きこもり",
+      "interest": "活動への関心",
+      "overallMood": "全体的な気分"
+    },
+    "evidenceMarkers": "根拠となる兆候",
+    "assessmentNotes": "評価メモ",
+    "callRecordings": "通話録音",
+    "recentRecordings": "最近の録音",
+    "transcriptsAndScores": "文字起こしとスコア",
+    "table": {
+      "call": "通話",
+      "score": "スコア",
+      "risk": "リスク",
+      "duration": "通話時間",
+      "time": "日時"
+    },
+    "noMatchingCalls": "条件に一致する通話はありません。",
+    "loadingCalls": "通話を読み込んでいます…",
+    "loadError": "バックエンドに接続できませんでした。サーバーは起動していますか？",
+    "startDemoCall": "今すぐ発信",
+    "scheduleTime": "毎日の発信時刻",
+    "scheduleCall": "毎日予約",
+    "closeScheduleDialog": "予約ダイアログを閉じる",
+    "cancel": "キャンセル",
+    "demoPhoneNumberMissing": "デモ発信用にNEXT_PUBLIC_DEMO_TO_NUMBERを設定してください。",
+    "scheduleTimeRequired": "先に発信予定時刻を選択してください。",
+    "callStarted": "通話を開始しました: {callSid}",
+    "callInProgress": "通話中",
+    "callWaitingForScore": "スコア待ち",
+    "callScoreReady": "スコアが準備できました: {score}（{risk}）",
+    "callResultError": "通話は開始しましたが、結果を読み込めませんでした。",
+    "callStartError": "通話を開始できませんでした。バックエンドとTwilio設定を確認してください。",
+    "callScheduled": "毎日{time}に発信するよう予約しました。",
+    "callScheduleError": "毎日の発信を予約できませんでした。バックエンドと予定時刻を確認してください。",
+    "careRecipient": "ご利用者",
+    "backToDashboard": "ダッシュボードに戻る",
+    "callReference": "通話ID",
+    "selectedCallDetail": "選択した通話の詳細",
+    "callScore": "通話スコア",
+    "callRecording": "通話録音",
+    "transcript": "文字起こし",
+    "highlightLegend": "ハイライト部分は、評価項目のスコア低下につながった発言です。",
+    "viewReasoning": "判定理由を見る",
+    "hideReasoning": "判定理由を閉じる",
+    "viewReasoningFor": "{criterion}の判定理由を見る",
+    "reasoning": "判定理由",
+    "reasoningText": {
+      "call2TemporalConfusion": "田中さんは曜日に確信がなく、次の発話で訂正が必要でした。この発言が「時間・日付の混乱」のスコア低下に直接つながっています。",
+      "call2ReducedInterest": "食欲について控えめな返答をしており、普段の状態と比べて食事への関心が低下していることを示しています。",
+      "call4LowInterest": "食べたくないという発言は、日常的な活動である食事への関心低下を直接示しています。",
+      "call4FlatAffect": "疲労の訴えに加え、通話全体で返答が短かったことが「感情表現」の低いスコアにつながっています。",
+      "call4Withdrawal": "会話を短くしたいという希望は明確な引きこもり傾向の兆候であり、「社会的な引きこもり」のスコアに反映されています。"
+    },
+    "turnsCount": "{count}ターン",
+    "durationValue": "{minutes}分{seconds}秒",
+    "speaker": {
+      "recipient": "ご利用者"
+    },
+    "assessmentMarkers": {
+      "specificRecall": "朝食内容の具体的な想起",
+      "coherentResponses": "一貫した返答",
+      "steadyTone": "安定した声の調子",
+      "futurePlanning": "今後の予定",
+      "dateHesitation": "日付への迷い",
+      "secondPrompt": "再度の問いかけが必要",
+      "lowerEnergy": "活力の低下",
+      "reducedAppetite": "食欲の低下",
+      "strongRecall": "良好な出来事の想起",
+      "medicationRecall": "服薬の想起",
+      "livelyConversation": "活発な会話",
+      "socialConnection": "社会的なつながり",
+      "shortResponses": "短い返答",
+      "timelineUnclear": "不明瞭な時系列",
+      "flatAffect": "平板な感情表現",
+      "lowEngagement": "会話意欲の低下"
+    },
+    "assessmentNotesText": {
+      "call1Cognitive": "見当識は明瞭で具体的な想起ができています。繰り返しや矛盾した内容は確認されませんでした。",
+      "call1Emotional": "声の調子は安定し、娘さんの訪問を楽しみにする様子が見られました。",
+      "call2Cognitive": "日付の想起には再度の問いかけが必要でしたが、そのほかの会話は一貫していました。",
+      "call2Emotional": "普段より活力と食欲が低く、見当識に関する軽い不安が見られました。",
+      "call3Cognitive": "一日の予定、友人との交流、服薬内容を明瞭に思い出せています。",
+      "call3Emotional": "穏やかな感情表現があり、友人との会話への関心が通話中を通して続きました。",
+      "call4Cognitive": "返答が短く時系列も不明瞭だったため、時間の見当識に対する確信度が低下しました。",
+      "call4Emotional": "感情表現の乏しさ、食欲低下、会話を短くしたいとの希望から、引きこもり傾向が示唆されます。"
+    },
+    "callData": {
+      "call1": {
+        "name": "田中さん",
+        "date": "今日",
+        "time": "午前9:02",
+        "summary": "見当識は明瞭で、声の調子も安定し、朝食の内容も通常どおり思い出せています。"
+      },
+      "call2": {
+        "name": "田中さん",
+        "date": "昨日",
+        "time": "午前9:01",
+        "summary": "普段より元気がなく、日付を思い出すために再度の問いかけが必要でした。"
+      },
+      "call3": {
+        "name": "田中さん",
+        "date": "7月21日（火）",
+        "time": "午前9:04",
+        "summary": "記憶が明瞭で会話も活発なため、気がかりな兆候はありません。"
+      },
+      "call4": {
+        "name": "田中さん",
+        "date": "7月20日（月）",
+        "time": "午前8:58",
+        "summary": "返答が短く声の抑揚が少ないほか、朝食を抜いたとの報告がありました。"
+      }
+    }
+  }
+}

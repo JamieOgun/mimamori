@@ -1,0 +1,21 @@
+.DS_Store
+
+# Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/*.tsbuildinfo
+
+# Backend
+backend/.venv/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/**/__pycache__/
+backend/data/recordings/
+backend/data/transcripts/*
+!backend/data/transcripts/*_SYNTH-*.json
+
+# Local configuration
+.env
+.env.*
+!.env.example
