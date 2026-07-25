@@ -52,7 +52,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${inter.variable} ${krub.variable}`}>
+      <body className={`${inter.className} ${inter.variable} ${krub.variable}`}>
         <LanguageProvider initialLocale={locale}>{children}</LanguageProvider>
       </body>
     </html>
